@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Nav from '../../components/Nav'
 
 function Search (){
   return (
@@ -6,6 +7,7 @@ function Search (){
   <Head>
     <title>National Park News</title>
   </Head>
+  <Nav />
   <div>
     <h1>Find National Parks to Follow</h1>
   </div>
